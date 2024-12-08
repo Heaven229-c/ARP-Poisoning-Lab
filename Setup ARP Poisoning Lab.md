@@ -114,7 +114,12 @@ DNS Server: **8.8.8.8**
    ```bash
    sudo service isc-dhcp-server restart
    ```
-6. **Set Up NAT for Internet Access: Configure iptables:**
+   Enable DHCP Server at Boot To ensure the DHCP server starts at boot:
+
+   ```bash
+   sudo systemctl enable isc-dhcp-server
+   ```
+7. **Set Up NAT for Internet Access: Configure iptables:**
     
    ```bash
    sudo iptables -t nat -A POSTROUTING -o ens33 -j MASQUERADE
