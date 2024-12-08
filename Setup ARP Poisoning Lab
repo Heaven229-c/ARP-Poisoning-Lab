@@ -1,0 +1,1 @@
+This document guides you through setting up a virtual lab in VMware Workstation for learning ARP poisoning attacks and detection. The lab includes Ubuntu Server as a gateway, Kali Linux as the attacker, and Windows 10 as the victim.
