@@ -26,7 +26,7 @@ DNS Server: **8.8.8.8**
 3. Create a new Host-Only network:
    - Click **Add Network** and select **VMnet1**.
    - Configure **Subnet IP**: `192.168.2.0`.
-   - Disable DHCP for **vnet1** (we will use Ubuntu as the DHCP server).  
+   - Enable DHCP
    - Save the changes.  
 
 ---
