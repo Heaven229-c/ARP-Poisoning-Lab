@@ -155,6 +155,7 @@ DNS Server: **8.8.8.8**
    ```bash
    sudo systemctl restart networking
    ```
+---
 
 #### **2.3. Windows 10 (Victim)**
 1. **VM setting**:
