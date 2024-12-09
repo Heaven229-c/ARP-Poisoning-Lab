@@ -95,7 +95,7 @@ def main():
         choice = input("Select an option: ")
 
         if choice == "1":
-            ip_range = input("Enter IP range (e.g., 192.168.1.1/24): ")
+            ip_range = input("Enter IP range (e.g., 192.168.2.0/24): ")
             devices = scan(ip_range)
             display_devices(devices)
 
