@@ -59,9 +59,12 @@ DNS Server: **8.8.8.8**
         ens33:
             dhcp4: true
         ens37:
+            dhcp4: false
             addresses:
             - 192.168.2.2/24
-            dhcp4: false
+            routes:
+              - to: default
+                via: 192.168.2.2
             nameservers:
                 addresses:
                 - 8.8.8.8
